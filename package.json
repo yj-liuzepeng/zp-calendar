@@ -1,0 +1,28 @@
+{
+  "name": "zp-calendar",
+  "version": "0.0.3",
+  "description": "一个简单的日历插件",
+  "main": "lib/zp-calendar.umd.min",
+  "private": false,
+  "license": "MIT",
+  "author": "zepeng",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name zp-calendar --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

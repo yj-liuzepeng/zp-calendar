@@ -1,0 +1,7 @@
+node_modules/
+vue.config.js
+babel.config.js
+*.map
+*.html
+.idea
+.vscode
