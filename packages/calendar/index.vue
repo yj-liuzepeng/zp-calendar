@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lzp
  * @Date: 2021-06-23 16:55:55
- * @LastEditTime: 2021-07-02 10:52:48
+ * @LastEditTime: 2021-07-02 12:25:17
  * @LastEditors: xxx
 -->
 <template>
@@ -220,7 +220,7 @@ ul li {
 }
 .days {
   margin: 0;
-  padding: 5% 0;
+  padding: 1% 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -239,9 +239,9 @@ ul li {
 }
 .days li .active {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
   text-align: center;
   border-radius: 50%;
   background: #5cc18d !important;
@@ -252,9 +252,9 @@ ul li {
 }
 .days li .cday {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
   text-align: center;
 }
 .days li:hover .cday {
@@ -264,9 +264,9 @@ ul li {
 }
 .recday {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
   text-align: center;
   border-radius: 50%;
   background: #e1e1e1;
